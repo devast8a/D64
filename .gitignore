@@ -1,0 +1,10 @@
+.nyc_output/
+.vscode/
+build/
+coverage/
+node_modules/
+/junk
+/docs/design
+/debug/
+*.vsix
+/ref

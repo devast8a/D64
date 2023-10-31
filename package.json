@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "@types/chai": "^4.3.9",
+    "@types/mocha": "^10.0.3",
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1"
+  },
+  "mocha": {
+    "require": [
+      "ts-node/register"
+    ],
+    "spec": [
+      "src/**/*.test.ts"
+    ],
+    "extension": [
+      "ts"
+    ]
+  }
+}
